@@ -24,7 +24,7 @@ print(accuracy)
 C50 Algorithm: <br>
 --------------
 C50 is an extension of the C4.5 algorithm that classifies data using decision trees. The algorithm houses a series of decision trees that form a flowchart, where at each point in the flowchart the data is classified into one or another category based on for example an attribute. <br>
-The script uses training data to teach the model how to classify the different species of irises. 
+The script uses training data to teach the model how to classify the different species of irises. <br>
 **C50 Accuracy = 0.9556 = 95.56%** 
 ```
 mean(testData$Species == predict(dtModel, testData))
