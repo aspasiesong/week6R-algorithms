@@ -38,7 +38,7 @@ mean(testData$Species == predict(dtModel, testData))
 
 SVM Algorithm: 
 --------------
-```
+```ruby
 #e1071 will be used for Support Vector Classification.
 install.packages("e1071")
 install.packages("GGally")
@@ -108,7 +108,7 @@ tab
 
 K Means Algorithm: 
 --------------
-```
+```ruby
 #K-Means Clustering
 
 require("datasets")
@@ -176,7 +176,7 @@ print(accuracy)
 
 C50 Algorithm: 
 --------------
-```
+```ruby
 #The C5.0 algorithm
 #First install these packages
 #install.packages("C50") - this didn't work for me
